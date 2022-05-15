@@ -1,0 +1,21 @@
+{
+  "name": "lexical-practice",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --force",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@lexical/clipboard": "^0.2.9",
+    "@lexical/plain-text": "^0.2.9",
+    "@lexical/rich-text": "^0.2.9",
+    "@lexical/selection": "^0.2.9",
+    "@lexical/utils": "^0.2.9",
+    "lexical": "^0.2.9"
+  }
+}
