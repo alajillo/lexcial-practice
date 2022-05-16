@@ -16,7 +16,11 @@ export class ColorBox extends DecoratorNode {
         return wrapper;
     }
     updateDOM() {
-        return false;
+        return true;
+    }
+    setColor(newColor) {
+        const writable = this.getWritable();
+        writable.__color = newColor;
     }
     decorate() {
         const newElement = document.createElement('span');
